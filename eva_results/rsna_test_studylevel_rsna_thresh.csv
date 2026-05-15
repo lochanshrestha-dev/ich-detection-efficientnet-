@@ -1,0 +1,8 @@
+dataset,class,auc,auc_ci_lower,auc_ci_upper,sensitivity,specificity,f1
+rsna_test_studylevel,0.9820,0.9811,0.9829,0.9304,0.9353,0.8021
+rsna_test_studylevel,0.9847,0.9777,0.9908,0.9281,0.9560,0.1460
+rsna_test_studylevel,0.9868,0.9855,0.9882,0.9407,0.9477,0.6258
+rsna_test_studylevel,0.9921,0.9910,0.9931,0.9562,0.9615,0.6304
+rsna_test_studylevel,0.9758,0.9740,0.9775,0.9216,0.9181,0.5203
+rsna_test_studylevel,0.9793,0.9778,0.9807,0.9368,0.9235,0.6070
+rsna_test_studylevel,MACRO,0.9835,,,0.9356,0.9404,0.5553

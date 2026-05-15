@@ -1,0 +1,59 @@
+{
+  "cq500": {
+    "macro_auc": 0.7276024059960254,
+    "n_studies": 473,
+    "threshold_source": "RSNA_validation_Youden",
+    "thresholds": {
+      "any_ich": 0.0702,
+      "epidural": 0.0003,
+      "intraparenchymal": 0.0681,
+      "intraventricular": 0.0178,
+      "subarachnoid": 0.0425,
+      "subdural": 0.0534
+    },
+    "per_class": {
+      "any_ich": {
+        "auc": 0.7298425660266314,
+        "sensitivity": 0.4720812182741117,
+        "specificity": 0.9347826086956522,
+        "f1": 0.6038961038961039,
+        "threshold": 0.0702
+      },
+      "epidural": {
+        "auc": 0.6772415039768619,
+        "sensitivity": 0.08333333333333333,
+        "specificity": 0.9609544468546638,
+        "f1": 0.06451612903225806,
+        "threshold": 0.0003
+      },
+      "intraparenchymal": {
+        "auc": 0.7098431584640347,
+        "sensitivity": 0.15503875968992248,
+        "specificity": 0.9883720930232558,
+        "f1": 0.26143790849673204,
+        "threshold": 0.0681
+      },
+      "intraventricular": {
+        "auc": 0.8078643951127172,
+        "sensitivity": 0.7307692307692307,
+        "specificity": 0.8076062639821029,
+        "f1": 0.2900763358778626,
+        "threshold": 0.0178
+      },
+      "subarachnoid": {
+        "auc": 0.7646339406207827,
+        "sensitivity": 0.3333333333333333,
+        "specificity": 0.9807692307692307,
+        "f1": 0.4523809523809524,
+        "threshold": 0.0425
+      },
+      "subdural": {
+        "auc": 0.6761888717751251,
+        "sensitivity": 0.30612244897959184,
+        "specificity": 0.9504716981132075,
+        "f1": 0.35294117647058826,
+        "threshold": 0.0534
+      }
+    }
+  }
+}
